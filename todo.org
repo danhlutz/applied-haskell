@@ -1,0 +1,2 @@
+* Chapter 0: Monad tutorial
+** TODO Dealing with two variables
