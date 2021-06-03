@@ -1,2 +1,4 @@
 * Chapter 0: Monad tutorial
-** TODO Dealing with two variables
+** DONE Dealing with two variables
+   CLOSED: [2021-06-03 Thu 09:08]
+** TODO So we don't need monads
