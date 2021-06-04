@@ -10,4 +10,7 @@
 ** DONE applicative: More Examples
    CLOSED: [2021-06-03 Thu 20:20]
 * Chapter 2: Rio
-** TODO beginning
+** DONE beginning
+   CLOSED: [2021-06-04 Fri 08:48]
+** TODO [[https://www.fpcomplete.com/blog/2017/06/readert-design-pattern/][ReaderT blog post]]
+** Page 8 - Has* typeclass
