@@ -4,6 +4,10 @@
 ** DONE So we don't need monads
    CLOSED: [2021-06-03 Thu 18:18]
 * Chapter 1: Applied Haskell 101
-** TODO run big isntallation on first page
+** DONE run big isntallation on first page
+   CLOSED: [2021-06-03 Thu 20:19]
 ** TODO install ghcid
-** TODO applicative: More Examples
+** DONE applicative: More Examples
+   CLOSED: [2021-06-03 Thu 20:20]
+* Chapter 2: Rio
+** TODO beginning
