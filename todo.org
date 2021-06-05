@@ -13,4 +13,6 @@
 ** DONE beginning
    CLOSED: [2021-06-04 Fri 08:48]
 ** TODO [[https://www.fpcomplete.com/blog/2017/06/readert-design-pattern/][ReaderT blog post]]
-** Page 8 - Has* typeclass
+** DONE Page 8 - Has* typeclass
+   CLOSED: [2021-06-04 Fri 20:37]
+** Lens - page 11
