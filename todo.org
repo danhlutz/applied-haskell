@@ -12,7 +12,10 @@
 * Chapter 2: Rio
 ** DONE beginning
    CLOSED: [2021-06-04 Fri 08:48]
-** TODO [[https://www.fpcomplete.com/blog/2017/06/readert-design-pattern/][ReaderT blog post]]
+** DONE [[https://www.fpcomplete.com/blog/2017/06/readert-design-pattern/][ReaderT blog post]]
+   CLOSED: [2021-06-10 Thu 08:05]
 ** DONE Page 8 - Has* typeclass
    CLOSED: [2021-06-04 Fri 20:37]
-** Lens - page 11
+** DONE read beware of readFile blog post
+   CLOSED: [2021-06-10 Thu 08:05]
+** TODO unlifting page 21
