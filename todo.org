@@ -18,5 +18,6 @@
    CLOSED: [2021-06-04 Fri 20:37]
 ** DONE read beware of readFile blog post
    CLOSED: [2021-06-10 Thu 08:05]
-** TODO Module hierarchy page 22
+** DONE final practice then final exercise pg 24
+   CLOSED: [2021-06-12 Sat 13:37]
 ** TODO [[https://www.fpcomplete.com/haskell/tutorial/exceptions/][Exception handling tutorial]]
