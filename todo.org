@@ -26,4 +26,6 @@
 *** DONE Recovering page 9
     CLOSED: [2021-06-15 Tue 17:54]
 * Chapter 3
-** TODO start chapter 3
+** DONE start chapter 3
+   CLOSED: [2021-06-16 Wed 08:33]
+** TODO memory usage, bottom of page 2
