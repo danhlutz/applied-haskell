@@ -28,4 +28,6 @@
 * Chapter 3
 ** DONE start chapter 3
    CLOSED: [2021-06-16 Wed 08:33]
-** TODO memory usage, bottom of page 2
+** DONE memory usage, bottom of page 2
+   CLOSED: [2021-06-21 Mon 08:44]
+** TODO Software Transactional Memory, page 6
