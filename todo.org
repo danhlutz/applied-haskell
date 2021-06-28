@@ -37,4 +37,5 @@
 ** DONE Why newTVarIO p 9
    CLOSED: [2021-06-28 Mon 09:30]
 * Chapter 4
+** TODO top of page 5
  
