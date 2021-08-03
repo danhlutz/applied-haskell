@@ -37,5 +37,7 @@
 ** DONE Why newTVarIO p 9
    CLOSED: [2021-06-28 Mon 09:30]
 * Chapter 4
-** TODO restart async chapter
+** DONE restart async chapter
+   CLOSED: [2021-08-03 Tue 08:28]
+** TODO top of page 9 - launching async
  
