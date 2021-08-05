@@ -41,5 +41,7 @@
    CLOSED: [2021-08-03 Tue 08:28]
 ** DONE top of page 9 - launching async
    CLOSED: [2021-08-04 Wed 08:50]
-** TODO bottom of page 14 - lifted
+** DONE bottom of page 14 - lifted
+   CLOSED: [2021-08-05 Thu 08:54]
+** TODO middle of page 18 - sumConcurrently
  
