@@ -48,4 +48,6 @@
 ** DONE page 3 what's in an int?
    CLOSED: [2021-08-09 Mon 08:46]
 * Chapter 6
-** TODO Start at the beginning
+** DONE Start at the beginning
+   CLOSED: [2021-08-10 Tue 08:21]
+** TODO top of page 13 - strict data
