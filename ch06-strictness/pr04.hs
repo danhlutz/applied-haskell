@@ -1,16 +1,9 @@
 {-# LANGUAGE BangPatterns#-}
 module Main where
 
-import Control.DeepSeq
-
 data RunningTotal = RunningTotal
-  { sum' :: Int
-  , count :: Int }
-instance NFData RunningTotal where
-  rnf (RunningTotal sum count) = sum `deepseq` count `deepseq` ()
-
-deepseq' :: NFData a => a -> b -> b
-deepseq' x = seq (rnf x)
+  { sum' :: !Int
+  , count :: !Int }
 
 printAverage :: RunningTotal -> IO ()
 printAverage (RunningTotal s c)
@@ -24,7 +17,7 @@ printListAverage =
         go (RunningTotal sum count) (x:xs) =
           let
             rt = RunningTotal (sum + x) (count +1)
-          in rt `deepseq'` go rt xs
+          in go rt xs
 
 main :: IO ()
 main = printListAverage [1..1000000]

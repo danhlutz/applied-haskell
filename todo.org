@@ -50,4 +50,6 @@
 * Chapter 6
 ** DONE Start at the beginning
    CLOSED: [2021-08-10 Tue 08:21]
-** TODO top of page 13 - strict data
+** DONE top of page 13 - strict data
+   CLOSED: [2021-08-10 Tue 18:04]
+** TODO Sets and maps - page 17
