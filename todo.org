@@ -52,4 +52,6 @@
    CLOSED: [2021-08-10 Tue 08:21]
 ** DONE top of page 13 - strict data
    CLOSED: [2021-08-10 Tue 18:04]
-** TODO Sets and maps - page 17
+** DONE Sets and maps - page 17
+   CLOSED: [2021-08-11 Wed 08:38]
+** TODO chain reaction, bottom of p 19
