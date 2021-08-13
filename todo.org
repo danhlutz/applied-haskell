@@ -54,4 +54,7 @@
    CLOSED: [2021-08-10 Tue 18:04]
 ** DONE Sets and maps - page 17
    CLOSED: [2021-08-11 Wed 08:38]
-** TODO chain reaction, bottom of p 19
+** DONE chain reaction, bottom of p 19
+   CLOSED: [2021-08-13 Fri 08:42]
+* Chapter 7
+** TODO top of page 5
