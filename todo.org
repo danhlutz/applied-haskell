@@ -57,4 +57,6 @@
 ** DONE chain reaction, bottom of p 19
    CLOSED: [2021-08-13 Fri 08:42]
 * Chapter 7
-** TODO top of page 5
+** DONE top of page 5
+   CLOSED: [2021-08-16 Mon 08:26]
+** TODO bytestring basics, page 10
