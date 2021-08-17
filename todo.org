@@ -59,4 +59,7 @@
 * Chapter 7
 ** DONE top of page 5
    CLOSED: [2021-08-16 Mon 08:26]
-** TODO bytestring basics, page 10
+** DONE bytestring basics, page 10
+   CLOSED: [2021-08-17 Tue 08:37]
+* Chapter 8
+** TODO Start Chapter 8
