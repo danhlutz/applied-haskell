@@ -62,4 +62,9 @@
 ** DONE bytestring basics, page 10
    CLOSED: [2021-08-17 Tue 08:37]
 * Chapter 8
-** TODO Start Chapter 8
+** DONE Start Chapter 8
+   CLOSED: [2021-08-18 Wed 08:45]
+** DONE Page 4 folding
+   CLOSED: [2021-08-20 Fri 08:53]
+** TODO sets and maps, page 7
+   
