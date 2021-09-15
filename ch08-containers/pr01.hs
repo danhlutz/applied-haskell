@@ -84,3 +84,76 @@ colorado = withinPrefixRange 521 524
 newMexico :: Employees -> Employees
 newMexico es =
   withinPrefixRange 525 525 es `Map.union` withinPrefixRange 585 585 es
+
+--
+data State =
+  Arizona | California | Colorado | NewMexico | Nevada | Oklahoma |
+  Texas | Utah
+  deriving (Show, Eq, Ord, Enum)
+
+statePrefixRangeMap :: Map.Map State [(Int, Int)]
+statePrefixRangeMap =
+  Map.fromList
+    [ (Arizona, [(526, 527)])
+    , (California, [(545, 573)])
+    , (Colorado, [(521, 524)])
+    , (NewMexico, [(525, 525), (585, 585)])
+    , (Nevada, [(530, 530), (680, 680)])
+    , (Oklahoma, [(440, 448)])
+    , (Texas, [(449, 467)])
+    , (Utah, [(528, 529)])
+    ]
+
+allStates :: Set.Set State
+allStates = Set.fromDistinctAscList [toEnum 0 ..]
+
+statePrefixMap :: Map.Map State (Set.Set Int)
+statePrefixMap =
+  Map.fromSet
+    (Set.fromList . concatMap (uncurry enumFromTo) . (statePrefixRangeMap Map.!))
+    allStates
+
+prefixStateMap :: Map.Map Int State
+prefixStateMap = Map.foldlWithKey addPrefixes Map.empty statePrefixMap
+  where
+    addPrefixes spm state = Map.union spm . Map.fromSet (const state)
+
+statePersonsMap :: Employees -> Map.Map State [Person]
+statePersonsMap = Map.foldlWithKey updateState Map.empty
+  where updateState sm ssn p =
+          case Map.lookup (ssnPrefix ssn) prefixStateMap of
+            Nothing -> sm
+            Just state -> Map.alter (consPerson p) state sm
+        consPerson p Nothing = Just [p]
+        consPerson p (Just ps) = Just (p:ps)
+
+stateSocialsMap :: Employees -> Map.Map State (Set.Set SSN)
+stateSocialsMap = Set.foldl updateState Map.empty . Map.keysSet
+  where
+    updateState sm ssn =
+      case Map.lookup (ssnPrefix ssn) prefixStateMap of
+        Nothing -> sm
+        Just state -> Map.alter (addSSN ssn) state sm
+
+    addSSN ssn Nothing = Just $ Set.singleton ssn
+    addSSN ssn (Just ssnSet) = Just $ Set.insert ssn ssnSet
+
+employeesFrom :: State -> Employees -> Employees
+employeesFrom state es =
+  Map.unions $ map fromRange (statePrefixRangeMap Map.! state)
+  where
+    fromRange (low, high) = withinPrefixRange low high es
+
+allStateEmployeesMap :: Employees -> Map.Map State Employees
+allStateEmployeesMap es = Map.fromSet (`employeesFrom` es) allStates
+
+statePersonsMap' :: Employees -> Map.Map State [Person]
+statePersonsMap' = Map.map Map.elems . Map.filter (not . Map.null)
+  . allStateEmployeesMap
+
+stateSocialsMap' :: Employees -> Map.Map State (Set.Set SSN)
+stateSocialsMap' = Map.mapMaybe nonEmptyElems . allStateEmployeesMap
+  where
+    nonEmptyElems sem
+      | Map.null sem = Nothing
+      | otherwise    = Just $ Map.keysSet sem 
