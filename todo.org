@@ -70,5 +70,10 @@
    CLOSED: [2021-09-01 Wed 08:42]
 ** DONE Transformation, page 8
    CLOSED: [2021-09-14 Tue 21:44]
-** TODO Exercise "1" - print score
+** DONE Exercise "1" - print score
+   CLOSED: [2021-09-15 Wed 20:54]
+** DONE Exercise "2" - addMoney
+   CLOSED: [2021-09-30 Thu 12:26]
+* Chapter 9
+** TODO start chapter 9
    
