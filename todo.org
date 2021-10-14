@@ -75,5 +75,7 @@
 ** DONE Exercise "2" - addMoney
    CLOSED: [2021-09-30 Thu 12:26]
 * Chapter 9
-** TODO start chapter 9
+** DONE start chapter 9
+   CLOSED: [2021-10-13 Wed 21:11]
+** TODO PrimMonad, p 8
    
