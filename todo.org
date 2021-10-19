@@ -77,5 +77,8 @@
 * Chapter 9
 ** DONE start chapter 9
    CLOSED: [2021-10-13 Wed 21:11]
-** TODO PrimMonad, p 8
-   
+** DONE PrimMonad, p 8
+   CLOSED: [2021-10-14 Thu 21:17]
+** DONE vector-algorithms, p 10
+   CLOSED: [2021-10-17 Sun 21:10]
+** TODO Calculate the frequency of each byte of content on standard in 
