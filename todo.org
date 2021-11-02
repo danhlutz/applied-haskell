@@ -81,4 +81,10 @@
    CLOSED: [2021-10-14 Thu 21:17]
 ** DONE vector-algorithms, p 10
    CLOSED: [2021-10-17 Sun 21:10]
-** TODO Calculate the frequency of each byte of content on standard in 
+** DONE Calculate the frequency of each byte of content on standard in 
+   CLOSED: [2021-10-20 Wed 20:53]
+* Chapter 10
+** DONE Throwing, page 8
+   CLOSED: [2021-10-21 Thu 21:10]
+** DONE Recovering, page 10
+   CLOSED: [2021-11-01 Mon 20:23]
