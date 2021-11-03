@@ -88,3 +88,5 @@
    CLOSED: [2021-10-21 Thu 21:10]
 ** DONE Recovering, page 10
    CLOSED: [2021-11-01 Mon 20:23]
+* Chapter 12
+** TODO start quickcheck
