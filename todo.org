@@ -89,4 +89,9 @@
 ** DONE Recovering, page 10
    CLOSED: [2021-11-01 Mon 20:23]
 * Chapter 12
-** TODO start quickcheck
+** DONE start quickcheck
+   CLOSED: [2021-11-03 Wed 20:16]
+** DONE arbitrary, page 6
+   CLOSED: [2021-11-04 Thu 20:38]
+* Chapter 13
+** TODO start binary
