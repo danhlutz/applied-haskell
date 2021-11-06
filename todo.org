@@ -94,4 +94,7 @@
 ** DONE arbitrary, page 6
    CLOSED: [2021-11-04 Thu 20:38]
 * Chapter 13
-** TODO start binary
+** DONE start binary
+   CLOSED: [2021-11-05 Fri 20:10]
+* Chapter 14
+** TODO Start Aeson
