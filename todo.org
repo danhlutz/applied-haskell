@@ -97,4 +97,7 @@
 ** DONE start binary
    CLOSED: [2021-11-05 Fri 20:10]
 * Chapter 14
-** TODO Start Aeson
+** DONE Start Aeson
+   CLOSED: [2021-11-07 Sun 19:57]
+* Chapter 15
+** Start YAML
