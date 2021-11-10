@@ -100,4 +100,7 @@
 ** DONE Start Aeson
    CLOSED: [2021-11-07 Sun 19:57]
 * Chapter 15
-** Start YAML
+** DONE Start YAML
+* Chapter 16
+** Start Typed Process [[https://github.com/fpco/typed-process#readme][readme]]
+   CLOSED: [2021-11-09 Tue 20:30]
