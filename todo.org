@@ -102,5 +102,8 @@
 * Chapter 15
 ** DONE Start YAML
 * Chapter 16
-** Start Typed Process [[https://github.com/fpco/typed-process#readme][readme]]
-   CLOSED: [2021-11-09 Tue 20:30]
+** DONE Start Typed Process [[https://github.com/fpco/typed-process#readme][readme]]
+   CLOSED: [2021-11-14 Sun 20:39]
+** DONE Checking the Exit Code
+   CLOSED: [2021-11-15 Mon 20:42]
+* Chapter 17
