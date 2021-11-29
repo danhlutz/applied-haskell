@@ -108,3 +108,8 @@
    CLOSED: [2021-11-15 Mon 20:42]
 * Chapter 17
 ** First Tutorial "Streaming" section
+* Chapter 18
+** Web Services
+** page 6 - send a file
+** TOOD page 8 - use fewer resources
+* Chapter 19 - command line parsing
